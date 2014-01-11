@@ -21,7 +21,7 @@ Features
 Tutorials
 =========
 [Demo of adding rules using the Wizard] (http://www.youtube.com/watch?v=0_50PjfRqUE)  
-[Demo of adding a rule manually] (http://www.youtube.com/watch?v=laabxmw4Avk)
+[Demo of adding a rule manually] (http://www.youtube.com/watch?v=laabxmw4Avk)  
 [Screenshots] (https://github.com/thdoan/autofill-firefox/wiki/Screenshots)
 
 Inspiration
