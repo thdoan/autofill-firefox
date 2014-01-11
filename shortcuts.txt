@@ -1,3 +1,5 @@
+Keyboard Shortcuts
+
 == GLOBAL ==
 F - Form Fields
 H - Help
