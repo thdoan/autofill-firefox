@@ -1,0 +1,61 @@
+== GLOBAL ==
+F - Form Fields
+H - Help
+O - Other Stuff
+T - Text Clips
+V - Variables
+X - Exceptions
+? (/) - Support
+
+== Form Fields ==
+A - Add rule / Xóa (Remove)
+B - Loại bỏ (Delete)
+C - Lọc (Filter)
+D - Delete profile / Di chuyển (Move)
+E - Rename profile
+G - Ghi đè lên các trường chữ không trống (Overwrite)
+I - Filter / Mới... (New)
+J
+K
+L - Lưu (Save)
+M - Move rule / Thêm (Add)
+N - New profile / Đổi tên... (Rename)
+P - Profile
+Q
+R - Remove rule
+S - Save rules
+U
+W - Overwrite non-empty fields
+Y
+Z
+Up - Move rule up
+Down - Move rule down
+Enter - Open Edit Box
+Ctrl/Command+A - Select all
+
+== Text Clips ==
+
+== Variables ==
+N - Enable
+
+== Other Stuff ==
+A - Automatic (mode) / Thay thế
+B - Enable label matching / Thay thế biến (Variables)
+C - Show delete confirmations / Hiển thị xác nhận (Confirmations)
+D - Append (import mode)
+E - Export / Hiển thị menu ngữ cảnh
+G - Ghi đè mặc định
+I - Import / Nối thêm
+J
+K - Mask passwords / Giấu mật khẩu
+L
+M - Manual (mode) / Hiệu ứng âm thanh (Sound)
+N - Enable context menu / Nhập khẩu... (Import)
+P
+Q
+R - Replace (import mode) / Chờ đợi trước khi điền tự động
+S - Enable sound effects / So khớp nhãn
+U - Xuất khẩu... (Export)
+W - Overwrite by default
+Y - Enable autofill delay
+Z
