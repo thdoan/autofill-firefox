@@ -1,6 +1,0 @@
-content   autofill                 chrome/content/
-skin      autofill   classic/1.0   chrome/skin/
-skin      autofill   classic/1.0   chrome/skin-linux/     os=Linux
-locale    autofill   en-US         chrome/locale/en-US/
-locale    autofill   vi-VN         chrome/locale/vi-VN/
-overlay   chrome://browser/content/browser.xul   chrome://autofill/content/ff-overlay.xul
