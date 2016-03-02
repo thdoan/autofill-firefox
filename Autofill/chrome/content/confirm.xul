@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://autofill/skin/options.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://autofill/locale/translations.dtd">
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  id="confirmation"
+	title="&confirm.title;"
+	buttons="accept,cancel"
+	buttonlabelaccept=""
+	ondialogaccept="return onAccept()"
+	onload="init()">
+  <description id="content-desc"></description>
+  <stringbundleset>
+    <stringbundle id="string-bundle" src="chrome://autofill/locale/translations.properties" />
+  </stringbundleset>
+  <script type="application/x-javascript">
+  //<![CDATA[
+    var oA = window.arguments[0];
+  // Initiate
+  function init() {
+    var D = document,
+      oWin = D.getElementById('confirmation'),
+      oD = D.getElementById('content-desc'),
+      oSB = D.getElementById('string-bundle');
+    oD.textContent = oSB.getString(oA.i.desc);
+    oWin.getButton('accept').setAttribute('label', oSB.getString(oA.i.type));
+  }
+  function onAccept() {
+    oA.o = true;
+    return true;
+  }
+  //]]>
+  </script>
+</dialog>

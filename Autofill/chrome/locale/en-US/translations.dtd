@@ -1,0 +1,115 @@
+<!ENTITY options.title "Autofill Options">
+<!ENTITY fields.label "Form Fields">
+<!ENTITY fields.profile.label "Profile:">
+<!ENTITY fields.profile.accesskey "P">
+<!ENTITY fields.new.label "New">
+<!ENTITY fields.new.accesskey "N">
+<!ENTITY fields.new.tooltip "Create new profile">
+<!ENTITY fields.rename.label "Rename">
+<!ENTITY fields.rename.accesskey "E">
+<!ENTITY fields.rename.tooltip "Rename this profile">
+<!ENTITY fields.delete.label "Delete">
+<!ENTITY fields.delete.accesskey "D">
+<!ENTITY fields.delete.tooltip "Delete this profile">
+<!ENTITY fields.filter.label "Site Filter:">
+<!ENTITY fields.filter.accesskey "I">
+<!ENTITY fields.filter.tooltip "Any part of the document title or URL that needs to match in order to trigger any rule in this profile (Regular Expressions are supported)">
+<!ENTITY fields.overwrite.label "Overwrite non-empty fields">
+<!ENTITY fields.overwrite.accesskey "W">
+<!ENTITY fields.overwrite.tooltip "By default Autofill skips non-empty fields to be on the safe side; check this box if you want to change this behavior">
+<!ENTITY fields.type.label "Field Type">
+<!ENTITY fields.type.tooltip "Type of form field to autofill">
+<!ENTITY fields.name.label "Field Name">
+<!ENTITY fields.name.tooltip "Label or NAME/ID/CLASS attribute value of the field to autofill (everything between /* and */ is ignored; Regular Expressions are supported)">
+<!ENTITY fields.value.label "Value to Autofill">
+<!ENTITY fields.value.tooltip "Text to autofill or command to auto-select/check (click Help for more info on the possible commands you can use)">
+<!ENTITY fields.site.label "Site Filter">
+<!ENTITY fields.site.tooltip "Any part of the document title or URL that needs to match in order to trigger this autofill rule (Regular Expressions are supported)">
+<!ENTITY fields.add.label "Add">
+<!ENTITY fields.add.accesskey "A">
+<!ENTITY fields.add.tooltip "Add new rule">
+<!ENTITY fields.remove.label "Remove">
+<!ENTITY fields.remove.accesskey "R">
+<!ENTITY fields.remove.tooltip "Remove selected rule(s)">
+<!ENTITY fields.up.tooltip "Move selected rule(s) up">
+<!ENTITY fields.down.tooltip "Move selected rule(s) down">
+<!ENTITY fields.move.label "Move">
+<!ENTITY fields.move.accesskey "M">
+<!ENTITY fields.move.tooltip "Move selected rule(s) to another profile">
+<!ENTITY fields.save.label "Save">
+<!ENTITY fields.save.accesskey "S">
+<!ENTITY fields.save.tooltip "Save autofill rules">
+<!ENTITY exceptions.label "Exceptions">
+<!ENTITY exceptions.desc.1 "There may be pages you don't want Autofill activated on. Enter any part of the document title or URL of these pages below, with one entry on each line.">
+<!ENTITY exceptions.desc.2 " are supported.">
+<!ENTITY other.label "Other Stuff">
+<!ENTITY other.operation.label "Operation">
+<!ENTITY other.delay.label "Enable autofill delay">
+<!ENTITY other.delay.accesskey "Y">
+<!ENTITY other.delay.tooltip "Uncheck this box if you want forms to be filled faster at the cost of reliability">
+<!ENTITY other.labelmatch.label "Enable label matching">
+<!ENTITY other.labelmatch.accesskey "B">
+<!ENTITY other.labelmatch.tooltip "Uncheck this box if you want to disable the fuzzy text label matching">
+<!ENTITY other.overwrite.label "Overwrite by default">
+<!ENTITY other.overwrite.accesskey "W">
+<!ENTITY other.overwrite.tooltip "If this box is checked, &quot;Overwrite non-empty fields&quot; will be enabled by default">
+<!ENTITY other.vars.label "Expand variables">
+<!ENTITY other.vars.accesskey "V">
+<!ENTITY other.vars.tooltip "If this box is checked, {...} will be replaced with the variable's output (click Help to see a list of variables you can use)">
+<!ENTITY other.sound.label "Enable sound effects">
+<!ENTITY other.sound.accesskey "S">
+<!ENTITY other.sound.tooltip "Check this box if you want to hear sound effects after every autofill operation">
+<!ENTITY other.security.label "Security">
+<!ENTITY other.mask.label "Mask passwords">
+<!ENTITY other.mask.accesskey "K">
+<!ENTITY other.mask.tooltip "If this box is checked, passwords in the Value column will be hidden from view">
+<!ENTITY other.interface.label "Interface">
+<!ENTITY other.menu.label "Enable context menu">
+<!ENTITY other.menu.accesskey "N">
+<!ENTITY other.menu.tooltip "Uncheck this box if you want to remove Autofill from the context menu">
+<!ENTITY other.confirm.label "Show delete confirmations">
+<!ENTITY other.confirm.accesskey "C">
+<!ENTITY other.confirm.tooltip "Uncheck this box to suppress the Delete Profile confirmation dialog">
+<!ENTITY other.importexport.label "Import/Export">
+<!ENTITY other.import.desc "Click Import to load settings from a CSV file">
+<!ENTITY other.importmode.desc "Mode">
+<!ENTITY other.replace.label "Replace">
+<!ENTITY other.replace.accesskey "R">
+<!ENTITY other.replace.tooltip "Replace all profiles and autofill rules with data imported from the CSV file">
+<!ENTITY other.append.label "Append">
+<!ENTITY other.append.accesskey "D">
+<!ENTITY other.append.tooltip "Append profiles and autofill rules in the CSV file to the existing data">
+<!ENTITY other.export.desc "Click Export to save settings to a CSV file">
+<!ENTITY other.import.label "Import">
+<!ENTITY other.import.accesskey "I">
+<!ENTITY other.export.label "Export">
+<!ENTITY other.export.accesskey "E">
+<!ENTITY support.label "Support">
+<!ENTITY support.desc.1 "Help is always a tooltip or click away. Whenever you're not sure what to do, just click the Help button to get detailed contextual help on that panel. If you need further assistance, then visit the official">
+<!ENTITY support.desc.2 " to start a new discussion. Send an email to">
+<!ENTITY support.desc.3 "to post directly to the support group. You can get your feet wet creating new autofill rules on the">
+<!ENTITY support.desc.4 "Go to">
+<!ENTITY support.desc.5 "to see the changelog of previous Autofill releases.">
+<!ENTITY support.desc.6 "Future Plans">
+<!ENTITY editbox.title "Edit Box">
+<!ENTITY catnew.title "Create New Profile">
+<!ENTITY catnew.desc "Enter a profile name:">
+<!ENTITY catrename.title "Rename Profile">
+<!ENTITY catrename.desc "Enter a new profile name:">
+<!ENTITY catdelete.title "Delete Profile">
+<!ENTITY catdelete.desc "Are you sure you want to delete this profile? All autofill rules in this profile will be moved to Unfiled.">
+<!ENTITY catdelete.confirm.label "Do not show this confirmation again">
+<!ENTITY moverule.title "Move to Profile">
+<!ENTITY moverule.desc "Which profile do you want to move the selected autofill rule(s) to?">
+<!ENTITY moverule.select.label "Select">
+<!ENTITY confirm.title "Confirmation">
+<!ENTITY menu.execute.label "Execute Profile">
+<!ENTITY menu.wizform.label "Add Rules for this Form">
+<!ENTITY menu.wizfield.label "Add Rule for this Field">
+<!ENTITY wizard.title "Form Fields Wizard">
+<!ENTITY wizard.step1.label "Welcome to the Form Fields Wizard!">
+<!ENTITY wizard.step2.label "Completing the Form Fields Wizard">
+<!ENTITY wizard.step2.desc.1 "Now choose a profile to save the autofill rules in:">
+<!ENTITY wizard.step2.desc.2 "Click Finish to generate the rules and close the wizard.">
+<!ENTITY wizard.wizopen.label "Open Options after closing wizard">
+<!ENTITY wizard.wizopen.accesskey "O">

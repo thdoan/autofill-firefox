@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://autofill/skin/options.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://autofill/locale/translations.dtd">
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&moverule.title;"
+	buttons="accept,cancel"
+	ondialogaccept="return onAccept()"
+	onload="init()">
+  <description width="260">&moverule.desc;</description>
+  <menulist id="content-cats">
+    <menupopup>
+      <menuitem label="&moverule.select.label;..." style="font-weight:bold" />
+      <menuitem label="Unfiled" value="" />
+    </menupopup>
+  </menulist>
+  <script type="application/x-javascript">
+  //<![CDATA[
+  var oA = window.arguments[0],
+    oC;
+  // Initiate
+  function init() {
+    oC = document.getElementById('content-cats');
+    // Populate profile list
+    for (var i=0, imax=oA.i.cats.length; i<imax; i++) {
+      oC.appendItem(oA.i.cats[i].n, oA.i.cats[i].k);
+    }
+  }
+  function onAccept() {
+    var oSel = oC.getItemAtIndex(oC.selectedIndex);
+    oA.o = (oC.selectedIndex==0) ? null : {
+      cat: oSel.value,
+      catlabel: oSel.label
+    };
+    return true;
+  }
+  //]]>
+  </script>
+</dialog>
