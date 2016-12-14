@@ -2,7 +2,7 @@
  * @package Autofill
  * @author Tom Doan
  * @copyright (c) Tom Doan
- * @license GNU General Public License
+ * @license MIT License
  * @link http://www.tohodo.com/
  */
 
