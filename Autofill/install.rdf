@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>firefox-autofill@googlegroups.com</em:id>
     <em:type>2</em:type>
-    <em:name>Autofill</em:name>
+    <em:name>Autofill (Legacy)</em:name>
     <em:version>3.6</em:version>
     <em:creator>Tom Doan</em:creator>
     <em:description>Fill form fields automatically on page load.</em:description>
